@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<head>
-    <title>Registration page</title>
-    <link href="/style.css" type=text/css rel=stylesheet>
-</head>
+<?php
+include_once('template/header.php');
 
-<body>
+?>
+
 <form id='register' action='register.php' method='post'
       accept-charset='UTF-8'>
     <fieldset >
@@ -24,4 +22,4 @@
 
     </fieldset>
 </form>
-</body>
+

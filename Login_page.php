@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-        <head>
-    <title>Login page</title>
+<?php
+include_once('template/header.php');
 
-    <link href="/style.css" type=text/css rel=stylesheet>
-    </head>
-<body>
+?>
 <form method="post" action="Authorized.php" >
     <fieldset>
     <legend><h2> Login to Contact Manager</h2></legend>
@@ -22,4 +19,4 @@
 
     </fieldset>
 </form>
-</body>
+
